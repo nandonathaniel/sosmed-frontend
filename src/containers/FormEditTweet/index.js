@@ -46,7 +46,7 @@ export const FormEditTweet = () => {
                 />
                 <br/>
                 <label>Tweet desc:</label> &nbsp;
-                <input
+                <textarea
                     type = "text"
                     required
                     value = {desc}
